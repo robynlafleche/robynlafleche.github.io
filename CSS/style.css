@@ -55,12 +55,22 @@ body{
 
 p {
    font-size: 20px;
-   padding-top: 10px;
+   padding-top: 20px;
 }
 
 .aboutButtons {
    padding: 15px;
    text-align: center;
+}
+
+#skills {
+    background-color: #e7a67c;
+    color: #343a40;
+    text-align: center;
+}
+
+.icon-background {
+    color:#e7a67c
 }
 
 .btn.btn-Custom {
