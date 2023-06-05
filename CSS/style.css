@@ -51,6 +51,11 @@ body{
     color: #e7a67c;
     background-color: #343a40;
     min-height: 100vh;
+    text-align: center;
+}
+
+.aboutInfo{
+    text-align: left;
 }
 
 p {
