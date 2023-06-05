@@ -91,6 +91,10 @@ p {
     min-height: 100vh;
 }
 
+form{
+    margin: 0px 100px 0px 100px;
+}
+
 h2{
    font-weight: 700;
    font-size: 40px;
