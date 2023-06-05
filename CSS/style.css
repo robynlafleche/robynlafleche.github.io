@@ -59,7 +59,7 @@ body{
 }
 
 p {
-   font-size: 20px;
+   font-size: 22px;
    padding-top: 20px;
 }
 
@@ -78,6 +78,7 @@ p {
     color:#e7a67c
 }
 
+/* About me btns */
 .btn.btn-Custom {
     padding: 15px;
     font-size: 20px;
@@ -85,6 +86,15 @@ p {
     color: #343a40;
     margin: 10px
 }
+
+.btn.btn-Custom:hover {
+    padding: 15px;
+    font-size: 20px;
+    color: #202428;
+    background-color: #f19354;
+    margin: 10px
+}
+
 /* Contact section background color change */
 #contact{
     background-color: #e7a67c;
