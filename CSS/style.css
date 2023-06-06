@@ -68,16 +68,6 @@ p {
    text-align: center;
 }
 
-#skills {
-    background-color: #e7a67c;
-    color: #343a40;
-    text-align: center;
-}
-
-.icon-background {
-    color:#e7a67c
-}
-
 /* About me btns */
 .btn.btn-Custom {
     padding: 15px;
@@ -93,6 +83,72 @@ p {
     color: #202428;
     background-color: #f19354;
     margin: 10px
+}
+
+/* Skills section  */
+#skills {
+    background-color: #e7a67c;
+    color: #343a40;
+    text-align: center;
+}
+
+.icon-background {
+    color:#e7a67c
+}
+
+/* Project section */
+#projects{
+    color: #e7a67c;
+    background-color: #343a40;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.portfolio-item {
+    position: relative;
+    .image img{
+        width: 500px;
+        height: 250px;
+    }
+
+    .hoverContent{
+    background-color: #e7a67c;
+    color: #343a40;
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    left: 20px;
+    top: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    opacity: 0;
+    transform: scale(0);
+    }
+
+    .btn.btn-Custom {
+        padding: 15px;
+        font-size: 15px;
+        background-color: #343a40;
+        color: #e7a67c;
+        margin: 10px
+    }
+    
+    .btn.btn-Custom:hover {
+        padding: 15px;
+        font-size: 15px;
+        color: #f19354;
+        background-color: #202428;
+        margin: 10px
+    }
+}
+
+.portfolio-item:hover .hoverContent{
+    opacity: 1;
+    transform: scale(1);
 }
 
 /* Contact section background color change */
